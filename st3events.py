@@ -1,7 +1,7 @@
 import sublime
 import sublime_plugin
 
-class st3events(sublime_plugin.EventsListener):
+class st3events(sublime_plugin.EventListener):
     def on_load(self, view):
         print (view.file_name(), "just got loaded")
 
