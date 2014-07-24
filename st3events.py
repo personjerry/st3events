@@ -1,4 +1,5 @@
-import sublime, sublimeplugin
+import sublime
+import sublime_plugin
 
 class st3events(sublimeplugin.Plugin):
     def on_load(self, view):
